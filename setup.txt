@@ -1,0 +1,2 @@
+geth --datadir /path/to/blockchain init /path/to/genesis.json
+geth --datadir /path/to/blockchain --networkid 1000 --rpc --rpcport 8555 --rpcaddr 0.0.0.0 --rpcapi eth,net,web3,personal,admin --rpccorsdomain="*"
